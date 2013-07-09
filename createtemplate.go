@@ -18,7 +18,7 @@ func main(){
 }`
 
 var (
-	help = flag.String("", "help", "./createtemplate <filename>")
+	help = flag.String("h", "help", "./createtemplate <filename>")
 )
 
 func main() {
